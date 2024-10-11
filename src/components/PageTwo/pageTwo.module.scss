@@ -1,0 +1,57 @@
+
+.pageTwoMainCon{
+    background-color:#212D2D;
+    min-height: 100vh;
+    z-index: 1;
+    margin-top: 7vh;
+
+    .pageTwoContentMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        position: relative;
+        left: 0;
+
+        &Middle{
+            color: #fff; 
+            font-family: "Athelas", sans-serif;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 35.88px;
+            letter-spacing: 1%;
+            text-align: center;
+        }
+
+        &ImgCon{
+            border-radius: 10%;
+            z-index: 2;
+            transition: left 0.5s ease;
+        }
+    }
+}
+
+
+.pageTwo {
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    z-index: 1; 
+    display: flex;
+  }
+  
+
+
+
+.staticButton{
+    display: flex;
+    justify-content: center;
+    top: 88%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+

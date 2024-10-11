@@ -1,0 +1,21 @@
+.BtnGrp{
+    display: flex;
+    justify-content: center;
+    height: 47px;
+    padding: 8px 16px;
+    background-color: #4d5555;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 17%;
+    transition: margin-bottom 0.5s ease-in-out;
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    height: 100%;
+    padding: 5px;
+    
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+.mainCon{
+    // background-color: green;
+    height: 100vh;
+    // width: 100vw;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overflow: hidden;
+}
+
+.logoPosition{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    // color: #212D2D;
+    align-items: center;
+    // justify-content: center;
+    position: fixed;
+    // background-color: #212D2D;
+    z-index: 3;
+
+    span{
+        font-weight: 500;
+        font-size: 8.24px;
+        line-height: 12.94px;
+        letter-spacing: 2%;
+    }
+
+    // .logo{
+    //     position: sticky;
+    // }
+}
+
+.buttonSection{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    // background-color: aquamarine;
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+}
+
+.menu{
+    width: fit-content;
+    // background-color: green;
+    // padding-top: 41px;
+    position: fixed; 
+    padding-left: 37px;
+    display: none;
+    // padding-top: 38px;     
+    z-index: 4;
+}
